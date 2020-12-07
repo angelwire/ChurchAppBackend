@@ -44,11 +44,11 @@ $headers = array(
     'Subject' => $subject
 );
 $smtp = Mail::factory('smtp', array(
-        'host' => 'smtp.office365.com',
-        'port' => '587',
+        'host' => 'host',
+        'port' => '000',
         'auth' => true,
-        'username' => 'screenguy@cornerstoneowasso.com',
-        'password' => 'JosiahJones!'
+        'username' => '',
+        'password' => ''
     ));
 $mail = $smtp->send($to, $headers, $body);
 if (PEAR::isError($mail)) {
