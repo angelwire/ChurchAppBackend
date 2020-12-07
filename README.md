@@ -1,2 +1,4 @@
 # ChurchAppBackend
-The php back-end for a church app
+The php back-end for a church app I developed but was unable to complete. This was my first major project with PHP and I learned on the go so the code is pretty messy and doesn't contain proper documentation. Files in the "for_app" folder were meant to be accessed by the user's mobile device to retrieve data from the database and the other files were meant for managers to add/update data through an online web portal. You'll notice a lot of lines with unnecessary "echo" because I didn't have a proper understanding of having HTML and PHP work together. These files don't represent my current level of PHP knowledge, just the fact that I have experience and I have learned.
+
+Since there are so many files to sift through, here are 5 that showcase some of my better work: "for_app/get_forms.php", "for_app/get_responses.php", "create_sign_up_sheet.php", "create_login.php", "create_event.php"
